@@ -1,0 +1,16 @@
+
+.field{
+	outline: none;
+	vertical-align: middle;
+	padding: 10px 12px;
+	border: 1px solid darkorange;
+	border-radius: 5px;
+}
+
+input:valid {
+	color:green;
+}
+
+input:invalid {
+	color:red;
+}
