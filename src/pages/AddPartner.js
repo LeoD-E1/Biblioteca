@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import '../styles/AddBook.css';
 
 class AddPartner extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+
+    };
+  }
+
   render() {
     return (
 
