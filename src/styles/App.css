@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+
 }
 
 .App-logo {
@@ -19,14 +21,10 @@
     transform: rotate(360deg);
   }
 }
-.googleButton{
-  background-color:#FFF;
-  padding: 12px;
-  border-radius: 50px;
 
-}
 .title{
   font-family: 'Lobster', cursive;
+  color: #FFF;
 }
 .iniciar{
   font-family: 'Sedgwick Ave', cursive;
@@ -34,4 +32,10 @@
 }
 .imgUser{
   border-radius: 50%;
+}
+.contTitle{
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
 }

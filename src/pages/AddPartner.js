@@ -14,7 +14,7 @@ class AddPartner extends Component {
   render() {
     return (
 
-      <div className="row-fluid">
+      <div className="row">
       	<div className="col-lg-6">
       		<div className="card-header bg-primary text-white"><b>Agregar Socio</b></div><br/>
         	<div className="card-body">

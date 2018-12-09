@@ -18,16 +18,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <br/><br/><br/>
-        <div>
+          <Header />
+        <div className='contTitle'>
           <h2 className="title">Biblioteca</h2>
         </div>
-        <Header />
+
         <Carrusel />
-        <div className="row-fluid">
-          <AddBook />
-          <AddPartner />
-        </div>
+        <AddBook />
+        <AddPartner />
         <Jumbo />
       </div>
     );

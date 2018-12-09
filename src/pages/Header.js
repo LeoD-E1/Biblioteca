@@ -61,7 +61,7 @@ class Header extends Component {
 	      return (
 	        <div className='na'>
 						<img className='imgUser' src={this.state.user.photoURL} alt={this.state.user.displayName} align='left' width="40px"/>
-						<p >{this.state.user.displayName}</p>
+						{this.state.user.displayName}
 						 <button align='right' className="btn btn-outline-danger btn-md" onClick={this.handleLogOut}>Salir</button>
 	        </div>
 	      );
@@ -69,7 +69,7 @@ class Header extends Component {
 	      //Si no esta loggeado
 	      return(
 	        <div>
-	          <button className="btn btn-prymary btn-sm" onClick={this.handleAuth}><img src = {require ('../img/google.png')} width="35px" className="googleButton"/></button>
+	          <button className="btn btn-outline-danger btn-sm" onClick={this.handleAuth}><img src = {require ('../img/google.png')} className="googleButton"/></button>
 	        </div>
 	      );
 	    }
@@ -84,7 +84,7 @@ class Header extends Component {
 				            	<img src={require ('../img/escudo.svg')} className="img-escudo" height="35px" width="30px" />
 				                <a className="title navbar-brand" href="#">&nbsp;&nbsp;Biblioteca &nbsp;&nbsp;E.E.S.T N°6 Chacabuco</a>
 				            </div>
-				            <button id="btnDesplegate" className="btn btn-primary btn-md" onClick = {this.showMenu} id="menu">&#9776;</button>
+				            <button className="btn btn-primary btn-md" onClick = {this.showMenu} id='menu' >&#9776;</button>
 				            	{this.state.showMenu
 				            		? (
 						            <ul className="navbar-nav">
